@@ -58,14 +58,14 @@ function spin() {
     }
 } 
 function winnerMessage() {
-    const msg  = document.getElementById("message");
-    msg.style.display = "block";
-    msg.classList.add('animated', 'pulse')
+    const show  = document.getElementById("message");
+    show.style.display = "block";
+    
 }
 
 function hide() {
-    const msg = document.getElementById("message");
-    msg.style.display = "none";
+    const show = document.getElementById("message");
+    show.style.display = "none";
 }
 
     
