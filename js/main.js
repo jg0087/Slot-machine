@@ -60,6 +60,7 @@ function spin() {
 function winnerMessage() {
     const show  = document.getElementById("message");
     show.style.display = "block";
+    playMusic()
     
 }
 
@@ -67,5 +68,7 @@ function hide() {
     const show = document.getElementById("message");
     show.style.display = "none";
 }
-
+function playMusic() {
+    const sound = document.getElementById("message")
+}
     
