@@ -18,7 +18,6 @@
 
   /*----- state variables -----*/
 
-
   /*----- cached elements  -----*/
 
 
@@ -29,7 +28,7 @@
 
   //generates a random number between 1 and 10
 function getRandomNumber() {
-    return Math.floor(Math.random() *10) + 1;
+    return Math.floor(Math.random() * 4) + 1;
 }
 // return HTML element by ID 
 function getElement(id) {
@@ -37,31 +36,36 @@ function getElement(id) {
 }
 // Generates random numebrs
 function spin() {
-    const item1 = getElement('item1') ;
-    const item2 = getElement('item2') ; 
-    const item3 = getElement('item3') ;
+    const object1 = getElement('object1') ;
+    const object2 = getElement('object2') ; 
+    const object3 = getElement('object3') ;
 
     const num1 = getRandomNumber() ;
     const num2 = getRandomNumber() ;
     const num3 = getRandomNumber() ;
 
-    item1.innerHTML = `${num1}`;
-    item2.innerHTML = `${num2}`;
-    item3.innerHTML = `${num3}`;
+    object1.innerHTML = `${num1}`;
+    object2.innerHTML = `${num2}`;
+    object3.innerHTML = `${num3}`;
+
+   
 
     if (num1 === num2 && num1 === num3) {
-        jackpotMessage() ;
+        winnerMessage();
         
     } else {
-        tryAgain();
+        hide();
     }
+} 
+function winnerMessage() {
+    const msg  = document.getElementById("message");
+    msg.style.display = "block";
+    msg.classList.add('animated', 'pulse')
 }
 
-    function jackpotMessage() {
-        const message = document.getElementById('message');
-        message.jackpotMessage();
-    }
-    function tryAgain() {
-        const again = document.getElementById('again') ;
-        
-    }
+function hide() {
+    const msg = document.getElementById("message");
+    msg.style.display = "none";
+}
+
+    

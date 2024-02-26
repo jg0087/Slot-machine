@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Caesar Dressing", system-ui;
 }
 
 body {
@@ -10,36 +11,58 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(121, 169, 121);
+    background-image: url("https://i.pinimg.com/736x/68/f8/68/68f868ec06f37f2aa4c9e9e19b819726.jpg");
+    background-size: cover;
 }
 
 h1 {
-    color: rgb(12, 11, 11);
+    color: rgb(233, 208, 22);
     font-size: 10vmin;
     margin-bottom: 30vmin;
-    font-family: "Caesar Dressing", system-ui;
-    text-align: center;
-    text-align: center;
+    
 }
-#button {
-    margin-top: 15vmin;
+
+button {
+    margin: 10vmin;
     padding: 4vmin;
-    font-size: 10vmin;
+    font-size: 5vmin;
     border-radius: 10%;
     border: 1vmin solid gray;
     color: rgb(76, 80, 76);
     align-items: center;
     text-align: center;
+    font-family: "Caesar Dressing", system-ui;
+    box-shadow: 0 0 10px 10px rgba(2, 2, 22, 0.4) inset;
 }
 .objects {
     word-spacing: 20vmin;
     font-size: 10vmin;
     font-family: "Caesar Dressing", system-ui;
-    align-items: center;
+    text-align: center;
 }
 #slot-machine {
     align-items: center;
     text-align: center;
 }
+.objects {
+    background: #fafafa;
+    box-shadow: 0 0 10px 10px rgba(2, 2, 22, 0.4) inset;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    border: transparent rgb(12, 12, 11) 60px;
+    border-radius: 40px;
+    align-content: center;
+  }
+  .message {
+    font-size: 80px;
+    color: #f9df19;
+  }
+  .lever {
+    margin: -250px;
+    text-align: right;
+   
+  }
 
-    
+  
+  
