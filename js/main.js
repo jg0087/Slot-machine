@@ -69,6 +69,8 @@ function hide() {
     show.style.display = "none";
 }
 function playMusic() {
-    const sound = document.getElementById("message")
+    const sound = document.getElementById("audio");
+    sound.play()
 }
+
     
