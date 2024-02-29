@@ -2,14 +2,6 @@
     box-sizing: border-box;
     font-family: "Caesar Dressing", system-ui;
 }
-@media (min-width: 600px) {
-    .column {
-      width: 50%;
-    }
-}
-
-
-
 body {
     
     height: 100vh;
@@ -45,24 +37,18 @@ button {
     font-size: 20vmin;
     font-family: "Caesar Dressing", system-ui;
     text-align: center;
-
-}
-.objects {
     background: #fafafa ;
     box-shadow: 0 0 10px 10px rgba(2, 2, 22, 0.4) inset;
-    width: 100px;
-    height: 100px;
     overflow: hidden;
-    border: transparent rgb(12, 12, 11) 60px;
-    border-radius: 70px;
-    align-content: center;
+    border-radius: 80px;
 }
 #slot-machine {
     align-items: center;
     text-align: center;
+    margin: 0 0 0 400px;
 }
-  .message {
-    font-size: 80px;
+.message {
+    font-size: 180px;
     color: rgb(255, 60, 60);;
 }
 .lever {
