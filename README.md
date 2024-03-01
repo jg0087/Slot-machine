@@ -1,10 +1,10 @@
 # NUMBERS SLOT MACHINE
-A description of your game. Background info of the game is a nice touch.
+3 numbers slot machine. Lever spins the numbers, player that matches all 3 numbers wins .
 
 # Screenshot
 
-<img src="url to your image on imgur">
-<img src="url to your image on imgur">
+<img src="Screenshot 2024-02-29 at 11.02.16 AM.png">
+<img src="Screenshot 2024-02-29 at 11.06.22 AM.png">
 
 # Technologies Used
 
@@ -14,10 +14,9 @@ A description of your game. Background info of the game is a nice touch.
 
 # Getting Started
 
-[Click to View Project Planning](your Trello url here)
-[Click to Play Connect Four!](your deployment url here)
+https://jg0087.github.io/Slot-machine/
 
 # Next Steps
 
-- Future enhancement one...
-- Future enhancement two... 
+- point system
+- more animated features
