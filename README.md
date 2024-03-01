@@ -1,5 +1,7 @@
 # NUMBERS SLOT MACHINE
-3 numbers slot machine. Lever spins the numbers, player that matches all 3 numbers wins .
+-3 numbers slot machine. 
+-Lever spins the numbers.
+-Player who matches all 3 numbers wins.
 
 # Screenshot
 
