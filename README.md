@@ -11,6 +11,7 @@
 - JavaScript
 - HTML
 - CSS
+- Audio
 
 # Getting Started
 
